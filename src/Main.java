@@ -1,14 +1,22 @@
-import java.util.Arrays;
-
 public class Main {
+
     public static void main(String[] args) {
-        int[] numbers = {58, 46, 301, 85, 96, 8, 555, 123, 999};
-        int[] reversedNumbers = new int[numbers.length];
-        int count = 0;
-        for (int i = numbers.length-1; i >= 0; i--) {
-            reversedNumbers[count] = numbers[i];
-            count++;
+        int[] numbers = {999, 864, 41, 888, 167, 890, 2347};
+        reverseArray(numbers);
+        for (int i = 0; i < numbers.length; i++) {
+            System.out.print(numbers[i] + " ");
         }
-        System.out.println(Arrays.toString(reversedNumbers));
+    }
+
+    public static void reverseArray(int[] arr) {
+        int start = 0;
+        int end = arr.length - 1;
+        while (start < end) {
+            int temp = arr[start];
+            arr[start] = arr[end];
+            arr[end] = temp;
+            start++;
+            end--;
+        }
     }
 }

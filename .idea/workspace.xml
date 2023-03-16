@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="a8c9d8f2-06b3-40a4-bcbb-c7e00a1225da" name="Changes" comment="Первый билет">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +34,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Zoyun/IdeaProjects/Ticket-1",
+    "last_opened_file_path": "C:/Users/Zoyun/IdeaProjects/WorkCourse-Base",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -50,7 +52,8 @@
       <updated>1678791322892</updated>
       <workItem from="1678791323967" duration="136000" />
       <workItem from="1678791503147" duration="29000" />
-      <workItem from="1678967766694" duration="338000" />
+      <workItem from="1678967766694" duration="992000" />
+      <workItem from="1678991250269" duration="6000" />
     </task>
     <task id="LOCAL-00001" summary="Первый билет">
       <created>1678791354704</created>
@@ -66,7 +69,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678791441094</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Первый билет">
+      <created>1678968165776</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678968165776</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
